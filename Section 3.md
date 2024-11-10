@@ -4,7 +4,7 @@
 
 ## Case 1: Ordering System
 
-Draw Context Diagram and level 0 for Ordering system with the functions listed below:
+Draw Context Diagram and level 1 for Ordering system with the functions listed below:
 - The system includes Customer, Warehouse and manager as External Entities.
 - The customer can make order for products and the system should store the customer order.
 - The Warehouse views and confirms the customer orders.
@@ -23,7 +23,7 @@ Draw Context Diagram and level 0 for Ordering system with the functions listed b
 
 ## Case 2: Banking System
 
-Draw Context Diagram and level 0 for Banking system with the functions listed below:
+Draw Context Diagram and level 1 for Banking system with the functions listed below:
 - The system includes Customer, Banker (Auditor) and  Bank manager as External Entities.
 - The customer creates an account and the customer’s account is stored on the system, then he can make transactions on his account and the customer’s transaction is stored.
 - The Banker review the customer’s transaction and approves it in order to store the approved transaction on the system in data store named confirmed transaction.
