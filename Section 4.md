@@ -8,16 +8,18 @@
 
 - Student can `perform intake procedure` after sending his data to the system resulting in storing his data
 - Then the system will send `admission approval or rejection`
-- after student application approval, admin can request for student information in order to `maintain student information`
+- after student application approval, admin can request for student information in order to
+  `maintain student information`
   which results in updating student information from the database
 - Also, Admin can request for a report so that he can view students' reports
 
 ### Context Diagram
 
+<img src="Pics/s4p1_DFD_Context_Level.png">
 
 ### Level 0
 
-
+<img src="Pics/s4p2_DFD_Level_0.png">
 
 - `perform intake procedure` process can be broken to include the following
     - first it receives student data then stores it
@@ -26,3 +28,7 @@
       database to `reviewed` status, also sending approval or rejection msg to the student
 
 ### Level 1
+
+<img src="Pics/s4p3_DFD_Level_1.png">
+
+> Note: there is a syntax error for the process `1.3` as it must have an input from Data store Students Data (Each process has at least one input & one output)
